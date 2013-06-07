@@ -1,0 +1,14 @@
+name = Simple
+description = Simple, White, Green, Stylish
+version = 1.0
+core = 6.x
+engine = phptemplate
+stylesheets[all][] = css/screen.css
+stylesheets[print][] = css/print.css
+regions[header_region] = Header Region
+regions[content_left] = Content Left
+regions[content_right] = Content Right
+regions[sidebar_left] = Sidebar Left
+regions[sidebar_right] = Sidebar Right
+regions[footer_left] = Footer Left
+regions[footer_right] = Footer Right
